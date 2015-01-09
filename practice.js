@@ -72,7 +72,8 @@ alert("The Total Number was " + sumTotal + "!!");
 
 
  // false 0 -0 "" ' ' null undefined NaN
- "if(!mystring)"
+if myVar() {
+};
 
 
 
