@@ -61,7 +61,7 @@ alert("The Total Number was " + sumTotal + "!!");
 
 //What is the difference between arguments and parameters?
 
-  //Answer Here
+"Arguments are the values actually passed to a given function whereas the properties are the values given to a function in the declaration"
 
 
 //Next problem
@@ -71,7 +71,8 @@ alert("The Total Number was " + sumTotal + "!!");
 //What are all the falsy values in JavaScript and how do you check if something is falsy?
 
 
-  //Answer Here
+ // false 0 -0 "" ' ' null undefined NaN
+ "if(!mystring)"
 
 
 
@@ -81,14 +82,17 @@ alert("The Total Number was " + sumTotal + "!!");
 
 //Create a function called myName that returns your name
 
-  //Code Here
+  var myName = function() {
+    return "Ty";
+  }
 
 //Now save the function definition of myName into a new variable called newMyName
 
-  //Code Here
+  var newMyName = myName();
 
 //Now alert the result of invoking newMyName
 
+alert(newMyName);
 
 
 //Next problem
@@ -97,10 +101,35 @@ alert("The Total Number was " + sumTotal + "!!");
 
 //Create a function called outerFn which returns an anonymous function which returns your name.
 
-  //Code Here
+  var outerFn = function() {
+    return "Ty";
+  };
 
 //Now save the result of invoking outerFn into a variable called innerFn.
 
-  //Code Here
+  var innerFn = outerFn();
 
 //Now invoke innerFn.
+
+innerFn();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
